@@ -9,4 +9,10 @@ spring:
     data-username: root
     data-password: root
 
+#---------------------------------
+#   mybatis配置                  ||
+#=================================
+mybatis:
+  mapper-locations: mapper/*.xml  #mapper相关的配置xml文件
+  type-aliases-package:  com.shrio.demo.model #mapper对应的实体类
 
